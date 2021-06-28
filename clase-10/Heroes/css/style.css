@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.encabezado-1{
+    background-color: #1CD1B0;
+    position: absolute;
+    width: 1024px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    
+}
+
+.encabezado-1 p{
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.encabezado-2{
+    background-color: #00669F;
+    position: relative;
+    width: 1024px;
+    height: 101px;
+    left: 0px;
+    top: 38px;
+    
+}
+
+.encabezado-2 h1{
+    position: absolute;
+    width: 128px;
+    height: 47px;
+    left: 28px;
+    top: 28px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+}
+/* aca comienza el cuadro de batman*/
+
+.cuadro-1{
+    position: absolute;
+    width: 300px;
+    height: 194px;
+    left: 32px;
+    top: 290px;
+}
+.foto-personaje1{
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 122px;
+    top: 419px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.corazon1{
+    position: absolute;
+    left: 21px;
+    right: 249px;
+    top: 16px;
+    bottom: 151px; 
+}
+
+.cuadro-texto-1{
+    background: #F3F3F3;
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 32px;
+    top: 483px;
+}
+
+.cuadro-texto-1 h2{
+    position: absolute;
+    top: 74px;
+    left: 89px;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cuadro-texto-1 p{
+    position: absolute;
+    width: 267px;
+    height: 113px;
+    left: 16px;
+    top: 119px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.boton1{
+    background: #00669F;
+    position: relative;
+    width: 128.78px;
+    height: 48.52px;
+    left: 85px;
+    top: 269px;
+    right: 87px;;
+    bottom: 19px;
+}
+
+.boton1 p{
+    color: #F3F3F3;
+    position: absolute;
+    width: 56px;
+    height: 18px;
+    left: 37px;
+    top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+/* aca termina el cuadro de batman*/
+
+
+/* aca comienza el cuadro de harley queen*/
+ 
+.cuadro-2{
+    position: absolute;
+    width: 300px;
+    height: 194px;
+    left: 362px;
+    top: 293px;
+}
+.foto-personaje2{
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 451px;
+    top: 419px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.corazon2{
+    position: absolute;
+    left: 21px;
+    right: 249px;
+    top: 16px;
+    bottom: 151px; 
+}
+
+.cuadro-texto-2{
+    background: #F3F3F3;
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 362px;
+    top: 485px;
+}
+
+.cuadro-texto-2 h2{
+    position: absolute;
+    top: 74px;
+    left: 65px;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cuadro-texto-2 p{
+    position: absolute;
+    width: 267px;
+    height: 113px;
+    left: 16px;
+    top: 119px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.boton2{
+    background: #00669F;
+    position: relative;
+    width: 128.78px;
+    height: 48.52px;
+    left: 85px;
+    top: 269px;
+    right: 87px;;
+    bottom: 19px;
+}
+
+.boton2 p{
+    color: #F3F3F3;
+    position: absolute;
+    width: 56px;
+    height: 18px;
+    left: 37px;
+    top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+/* aca termina el cuadro de harley queen*/
+
+
+
+
+/* aca comienza el cuadro de batman 2*/
+ 
+.cuadro-3{
+    position: absolute;
+    width: 300px;
+    height: 194px;
+    left: 692px;
+    top: 294px;
+}
+.foto-personaje3{
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 781px;
+    top: 420px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.corazon2{
+    position: absolute;
+    left: 21px;
+    right: 249px;
+    top: 16px;
+    bottom: 151px; 
+}
+
+.cuadro-texto-3{
+    background: #F3F3F3;
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 692px;
+    top: 486px;
+}
+
+.cuadro-texto-3 h2{
+    position: absolute;
+    top: 74px;
+    left: 65px;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cuadro-texto-3 p{
+    position: absolute;
+    width: 267px;
+    height: 113px;
+    left: 16px;
+    top: 119px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.boton3{
+    background: #00669F;
+    position: relative;
+    width: 128.78px;
+    height: 48.52px;
+    left: 85px;
+    top: 269px;
+    right: 87px;;
+    bottom: 19px;
+}
+
+.boton3 p{
+    color: #F3F3F3;
+    position: absolute;
+    width: 56px;
+    height: 18px;
+    left: 37px;
+    top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+/* aca termina el cuadro de batman 2*/
+
+.pie-de-pagina{
+    position: absolute;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+    background: #00669F;
+}
+
+.pie-de-pagina p{
+    position: absolute;
+    width: 337px;
+    height: 19px;
+    left: 16px;
+    top: 16px;
+    color: #FFF9F9;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
